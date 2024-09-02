@@ -27,7 +27,26 @@ body {
   background-color: #16204d;
   border-color: #16204d;
 }
-
+.btn-secondary{
+  border-radius: 20px;
+  width: 200px;
+  background-color: #505F98 !important;
+  color: #FFFFFF !important;
+}
+.btn-secondary:hover{
+  background-color: #16204d !important;
+  color: #FFFFFF;
+}
+.btn-outline-secondary{
+  border-radius: 20px;
+  width: 200px;
+  color: #505F98 !important;
+  border-color: #505F98 !important;
+}
+.btn-outline-secondary:hover{
+  background-color: #16204d;
+  color: #FFFFFF !important;
+}
 .navbar-brand {
   color: #37447E;
   font-weight: 900;
@@ -54,6 +73,7 @@ body {
 
 .text_2 {
   font-size: 22px !important;
+  width: 470px;
 }
 
 .half-image {

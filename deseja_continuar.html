@@ -50,28 +50,32 @@
             </div>
         </div>
     </nav>
+    
+<div class="container mt-2">
+    <div class="container mt-5">
+        <form id="dynamic-form">
+            <div class="form-group">
+                <textarea class="form-control" id="question" readonly style="background-color: transparent; border: none"></textarea>
+            </div>
+            <div id="options-container" class="form-group">
+                <button type="button" class="btn btn-outline-primary mt-2 option-btn" data-value="option1">Opção 1</button>
+                <button type="button" class="btn btn-outline-primary mt-2 option-btn" data-value="option2">Opção 2</button>
+                <button type="button" class="btn btn-outline-primary mt-2 option-btn" data-value="option3">Opção 3</button>
+            </div>
+        </form>
+    </div>
+</div>
 
-    <div class="container mt-5 pt-5 ml-4">
-        <div class="row">
-            <div class="col-10 col-md-7 mt-5 offset-md-0">
-                <h1 class="text_1">CheckHealth: o seu<br>aliado na prevenção!</h1>
-                <div class="w-100">
-                    <h2 class="text_2">Sou um modelo que usa aprendizagem de máquina para entender padrões sobre o AVC. <br><br> Dessa forma, consigo realizar um pré-diagnóstico e juntos, diminuir a incidência desse quadro através da prevenção.</h2>
-                </div>     
-            </div>          
-        </div>
-    </div> 
-    
-    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-   
+    <!-- JavaScript customizado -->
+    <script src="script.js"></script>
   </body>
 </html>
